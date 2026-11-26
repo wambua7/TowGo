@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A welcome page for the towgo services website ">
+    <title>Welcome Page</title>
+    <script src="https://kit.fontawesome.com/a77ff0fe8d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #6dcefb;
+            --color-secondary: #f0f9ff;
+            --radius-card: 10px;
+            --color-btn: #8eea24;
+            --color-warning: #f44747;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex gap-2 bg-primary rounded-md m-5 justify-between items-center p-2">
+       <img src="assets/towgo-logo.png" alt="a logo" class="w-20 h-20 rounded-full">
+       <h1 class="uppercase font-bold  text-2xl ">Towgo Services</h1> 
+       <nav>
+            <ul class="flex gap-2 text-lg">
+                <li><a href="home.html" class="rounded-md p-2 hover:bg-blue-500 cursor-pointer">Home</a></li>
+                <li><a href="about.html" class="rounded-md p-2 hover:bg-blue-500 cursor-pointer">About</a></li>
+            </ul>
+       </nav> 
+    </div>
+    <div class="flex">
+        <div>
+            <ul><li><a href="">Quick Overview</a></li></ul>
+            <ul><li><a href="">Browse our Services</a></li></ul>
+            <ul><li><a href="">View our Mechanics</a></li></ul>
+            <ul><li><a href="">View Listed Tow Companies</a></li></ul>
+            <ul><li><a href="">View Listed Tow Companies</a></li></ul>
+        </div>
+        <div class="">
+            <h2>New Here? Worry not?</h2>
+            <p>Towgo Services sorts your needs in minutes and effortlessly</p>
+            <img src="assets/towgo-banner.png" alt="a banner image">
+            <button><a href="home.html">Get Started</a></button>
+        </div>
+    </div>
+  
+</body>
+</html>
