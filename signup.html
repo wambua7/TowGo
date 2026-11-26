@@ -18,9 +18,9 @@
 </head>
 <body>
     <div class="flex p-5 justify-center items-center min-h-screen bg-[url('assets/bg-image.jpg')] bg-cover ">
-        <div class="rounded-card border p-2">
+        <div class="rounded-card border p-2 backdrop-blur-md transition duration-5 hover:-translate-y-2 cursor-pointer">
             <p class=" font-bold text-lg/7 m-2 text-center text-slate-800">CREATE ACCOUNT</p>
-            <form action="#" method="post">
+            <form  method="post">
                 <label for="options" class="m-3">Choose your Profile</label>
                 <input type="radio" name="user" id="user">User
                 <input type="radio" name="user" id="user">Tow Company
@@ -36,12 +36,12 @@
                 <input type="email" name="email" id="email" placeholder="@example.com" class="border rounded-card bg-white m-3 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200">
                 <br>
                 <label for="password" class="m-3">Password</label>
-                <input type="password" name="password" id="password" required class="border rounded-card bg-white m-3 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200">
+                <input type="password" name="password" id="password" required  class="border rounded-card bg-white m-3 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200">
                 <br>
                 <label for="listings" class="m-3">Company details/CV</label>
                 <input type="text" name="listings" id="listings" class="border rounded-card bg-white m-3 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200">
                 <br>
-                <div class="flex justify-center"><button type="subm" class="bg-btn p-2 hover:bg-green-500 cursor-pointer rounded-card w-full">Sign Up</button></div>
+                <div class="flex justify-center"><button type="submit" class="bg-btn p-2 hover:bg-green-500 cursor-pointer rounded-card w-full"><a href="home.html"> Signup</a></button></div>
              
         </form>
         <p class="m-3">Have an account?<a href="login.html">Login</a></p>

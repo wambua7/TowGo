@@ -16,46 +16,83 @@
         }
     </style>
 </head>
-<body>
-    <header>
-       <img src="assets/towgo-logo.png" alt="a logo" class="w-20 h-20 rounded-full">
-       <h1 class="">Towgo Services</h1> 
-       <a href="home.html"><i class="fa-solid fa-house"></i></a>
+<body class="bg-white text-black">
+
+    <header class="m-3 flex items-center justify-between rounded-card bg-primary px-6 py-5 sm:px-8">
+        <div class="flex items-center gap-4 sm:gap-6">
+            <img src="assets/towgo-logo.png" alt="Towgo Services logo" class="h-16 w-16 rounded-full bg-slate-900 object-cover sm:h-20 sm:w-20">
+            <h1 class="text-2xl uppercase sm:text-4xl">Towgo Services</h1>
+        </div>
+        <a href="home.html" aria-label="Home" class="text-2xl transition hover:text-white">
+            <i class="fa-solid fa-house"></i>
+        </a>
     </header>
-    <div>
-        <div>
-            <img src="assets/map.png" alt="map">
-        </div>
-        <div class="">
-            <h2>What you Need?</h2>
-            <div>
-                <img src="assets/mark-mechanic.jpg" alt="">
-                <p>Mechanic</p>
-                <button>Book</button>
+
+    <main class="mx-3 mt-6 grid gap-8">
+        <div class="flex flex-col gap-6">
+
+            <div class="h-64 overflow-hidden rounded-card bg-slate-900 sm:h-72">
+                <img src="assets/map.png" alt="Map of nearby mechanics and tow trucks" class="h-full w-full object-cover">
             </div>
-            <div class="">
-                <img src="assets/flatbed.jpg" alt="flatbed">
-                <p>Flatbed</p>
-                <button>Book</button>
-            </div>
+
+            <section class="w-full max-w-sm rounded-card bg-secondary px-5 py-4">
+                <h2 class="mb-3 text-center text-base">Provide Details</h2>
+
+                <form action="#" method="post" class="space-y-3">
+                    <div class="flex items-center justify-between gap-3">
+                        <label for="names" class="w-28 shrink-0">Name</label>
+                        <input type="text" name="names" id="names" required
+                               class="min-w-0 flex-1 rounded-card bg-white px-2 py-1 focus:outline-none focus:ring-2 focus:ring-primary">
+                    </div>
+
+                    <div class="flex items-center justify-between gap-3">
+                        <label for="phone" class="w-28 shrink-0">Phone</label>
+                        <input type="tel" name="phone" id="phone" required
+                               class="min-w-0 flex-1 rounded-card bg-white px-2 py-1 focus:outline-none focus:ring-2 focus:ring-primary">
+                    </div>
+
+                    <div class="flex items-center justify-between gap-3">
+                        <label for="location" class="w-28 shrink-0">Location</label>
+                        <input type="text" name="location" id="location"
+                               class="min-w-0 flex-1 rounded-card bg-white px-2 py-1 focus:outline-none focus:ring-2 focus:ring-primary">
+                    </div>
+
+                    <div class="flex items-center justify-between gap-3">
+                        <label for="payment" class="w-28 shrink-0">Payment Methods</label>
+                        <input type="text" name="payment" id="payment"
+                               class="min-w-0 flex-1 rounded-card bg-white px-2 py-1 focus:outline-none focus:ring-2 focus:ring-primary">
+                    </div>
+
+                    <div class="flex justify-center pt-1">
+                        <button type="submit"
+                                class="rounded-card bg-btn px-4 py-1.5 text-sm transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-btn/50">
+                            Send SOS
+                        </button>
+                    </div>
+                </form>
+            </section>
         </div>
-    </div>
-    <div class="">
-        <h2>Provide Details</h2>
-        <form action="#" method="post">
-            <label for="names">Name</label>
-            <input type="text" name="names" id="names" required>
-            <br>
-            <label for="phone">Phone</label>
-            <input type="tel" name="phone" id="phone" required>
-            <br>
-            <label for="location">Location</label>
-            <input type="text" name="location" id="location">
-            <br>
-            <label for="payment">Payment Methods</label>
-            <input type="text" name="payment">
-            <button><a href="home.html">Send SOS</a></button>
-        </form>
-    </div>
+        <section class="pt-2 lg:pt-6">
+            <h2 class="mb-8 text-center text-xl font-medium">What you Need?</h2>
+
+            <div class="mx-auto grid max-w-xl grid-cols-2 gap-6 sm:gap-10">
+                <div class="flex flex-col items-center rounded-card bg-secondary px-4 py-8 text-center">
+                    <img src="assets/mark-mechanic.jpg" alt="Mechanic" class="mb-6 h-14 w-14 rounded-full object-cover">
+                    <p class="mb-2 text-sm">Mechanic</p>
+                    <button type="button" class="w-full rounded-card bg-btn py-1.5 transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-btn/50">
+                        Book
+                    </button>
+                </div>
+
+                <div class="flex flex-col items-center rounded-card bg-secondary px-4 py-8 text-center">
+                    <img src="assets/flatbed.jpg" alt="Flatbed tow truck" class="mb-6 h-14 w-14 rounded-full object-cover">
+                    <p class="mb-2 text-sm">Flatbed</p>
+                    <button type="button" class="w-full rounded-card bg-btn py-1.5 transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-btn/50">
+                        Book
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

@@ -16,32 +16,42 @@
         }
     </style>
 </head>
-<body>
-    <header>
-       <img src="assets/towgo-logo.png" alt="a logo" class="w-20 h-20 rounded-full">
-       <h1 class="">Towgo Services</h1> 
-       <a href="home.html"><i class="fa-solid fa-house"></i></a>
-    </header>
-    <main>
-        <p>What we offer at TOWGO SERVICES</p>
-        <ul>
-            <li>Breakdown Services </li>
-            <li>Mechanics at your desire</li>
-            <li>Live Location Feed</li>
-            <li>Quick Response and 24/7 Support</li>
+<body class="relative">
+    <div class="fixed inset-0 -z-10 bg-[url('assets/bg-image.jpg')] bg-cover bg-center blur-sm scale-110"></div>
+
+    <header class="bg-primary flex justify-between m-3 items-center rounded-xl">
+        <img src="assets/towgo-logo.png" alt="TOWGO logo" class="w-20 h-20 rounded-full p-2">
+        <ul class="flex gap-2">
+            <li>
+                <a href="login.html" class="bg-btn rounded-card p-2 mr-4 hover:bg-green-500 transition">Login</a>
+            </li>
+            <li>
+                <a href="signup.html" class="bg-btn rounded-card p-2 mr-4 hover:bg-green-500 transition">Signup</a>
+            </li>
         </ul>
-        <div>
-            <h3>Comments</h3>
-            <div class="">
-            <p>TOWGO SERVICES helped me when I thought I would be stranded for hours - <span>James Doe</span></p>
-            </div>
-            <div class="">
-            <p>TOWGO SERVICES has a quick response time- <span>Fred Ombachi</span></p>
-            </div>
-            <div class="">
-            <p>TOWGO SERVICES rocks and simpler Ui - <span>Wangari Macharia</span></p>
+    </header>
+
+    <main>
+        <div class="flex items-center justify-center min-h-screen">
+            <div class="w-80 rounded-xl bg-gray-200 p-4 border">
+                <p class="text-lg/7 text-center font-bold">What we offer??</p>
+                <ul>
+                    <li class="m-3"><i class="fa-solid fa-check mr-2"></i>Breakdown Services</li>
+                    <li class="m-3"><i class="fa-solid fa-check mr-2"></i>Mechanics at your desire</li>
+                    <li class="m-3"><i class="fa-solid fa-check mr-2"></i>Live Location Feed</li>
+                    <li class="m-3"><i class="fa-solid fa-check mr-2"></i>Quick Response and 24/7 Support</li>
+                    <li class="m-3"><i class="fa-solid fa-check mr-2"></i>Round the clock Services</li>
+                </ul>
+                <p>Interested?? <a href="signup.html" class="font-semibold">Get started</a></p>
             </div>
         </div>
     </main>
+
+    <footer class="m-3 bg-black text-white p-4 rounded-xl">
+        <h3 class="text-center text-xl mb-3">Comments</h3>
+        <p class="text-sm/6">TOWGO SERVICES helped me when I thought I would be stranded for hours - <span class="italic font-bold">James Doe</span> <i class="fa-regular fa-comment ml-1"></i></p>
+        <p class="text-sm/6">TOWGO SERVICES has a quick response time - <span class="italic font-semibold">Fred Ombachi</span> <i class="fa-regular fa-comment ml-1"></i></p>
+        <p class="text-sm/6">TOWGO SERVICES rocks and simpler UI - <span class="italic font-semibold">Wangari Macharia</span> <i class="fa-regular fa-comment ml-1"></i></p>
+    </footer>
 </body>
 </html>
