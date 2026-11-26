@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Page</title>
+    <script src="https://kit.fontawesome.com/a77ff0fe8d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme{
+            --color-primary: #6dcefb;
+            --color-secondary: #f0f9ff;
+            --radius-card: 10px;
+            --color-btn: #8eea24;
+            --color-warning: #f44747;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <img src="assets/towgo-logo.png" alt="a logo" class="w-20 h-20 rounded-full">
+       <h1 class="">Towgo Services</h1> 
+       <a href="home.html"><i class="fa-solid fa-house"></i></a>
+    </header>
+    <div>
+        <div>
+            <img src="assets/map.png" alt="map">
+        </div>
+        <div class="">
+            <h2>What you Need?</h2>
+            <div>
+                <img src="assets/mark-mechanic.jpg" alt="">
+                <p>Mechanic</p>
+                <button>Book</button>
+            </div>
+            <div class="">
+                <img src="assets/flatbed.jpg" alt="flatbed">
+                <p>Flatbed</p>
+                <button>Book</button>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <h2>Provide Details</h2>
+        <form action="#" method="post">
+            <label for="names">Name</label>
+            <input type="text" name="names" id="names" required>
+            <br>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" required>
+            <br>
+            <label for="location">Location</label>
+            <input type="text" name="location" id="location">
+            <br>
+            <label for="payment">Payment Methods</label>
+            <input type="text" name="payment">
+            <button><a href="home.html">Send SOS</a></button>
+        </form>
+    </div>
+</body>
+</html>
