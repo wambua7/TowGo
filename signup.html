@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <script src="https://kit.fontawesome.com/a77ff0fe8d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme{
+            --color-primary: #6dcefb;
+            --color-secondary: #f0f9ff;
+            --radius-card: 10px;
+            --color-btn: #8eea24;
+            --color-warning: #f44747;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <p>CREATE ACCOUNT</p>
+        <form action="#" method="post">
+            <label for="options">Choose your Profile</label>
+            <input type="radio" name="user" id="user">User
+            <input type="radio" name="user" id="user">Tow Company
+            <input type="radio" name="user" id="user">Mechanic
+            <br>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" required>
+            <br>
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="@example.com">
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+            <br>
+            <label for="listings">Company details/CV</label>
+            <input type="text" name="listings" id="listings">
+            <br>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Have an account?<a href="login.html">Login</a></p>
+    </main>
+</body>
+</html>
