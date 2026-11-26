@@ -17,18 +17,20 @@
     </style>
 </head>
 <body>
-     <div class="">
-        <p>Login to Get Started</p>
-        <form action="#" method="post">
-            <label for="email">Enter your email</label>
-            <input type="email" name="email" id="email" required>
+    <div class="min-h-screen flex items-center justify-center bg-[url('assets/bg-image.jpg')] bg-cover ">
+        <div class="rounded-card bg-gray-200/20 h-72 w-80  border">
+            <p class="text-center text-md m-3">Login to Get Started</p>
+            <form action="#" method="post" class="m-3  text-center">
+                <label for="email">Enter your email</label>
+                <input type="email" name="email" id="email" required class="border rounded-card bg-white m-3 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200">
             <br>
-            <label for="password">Enter your Password</label>
-            <input type="password" name="password" id="password">
+                <label for="password">Enter your Password</label>
+                <input type="password" name="password" id="password" class="border rounded-card bg-white m-3 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200">
             <br>
-            <button type="submit"><a href="home.html">Login</a></button>
-        </form>
-        <p>Don't have an account?<a href="signup.html">Sign Up</a></p>
-     </div>
+                <button type="submit" class="bg-btn rounded-card p-3 hover:bg-green-500 w-full"><a href="home.html">Login</a></button>
+            </form>
+            <p class="ml-2 text-md/6 ">Don't have an account?<a href="signup.html">Sign Up</a></p>
+        </div>
+    </div>
 </body>
 </html>
