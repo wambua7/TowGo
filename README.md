@@ -1,4 +1,4 @@
-#TOWGO SERVICES
+# TOWGO SERVICES
 
 > Quality second-hand furniture and home essentials, delivered to your doorstep.
 
@@ -54,18 +54,19 @@ Then right-click index.html in VS Code and choose Open with Live Server. The pag
 No VS Code? Just double-click index.html to open it in your browser.
 ```
 ## Project structure
-Plaintext
 
+```text
 TowGO/
-├── index.html   
+├── index.html
 ├── signup.html
 ├── login.html
-├── home.html  
+├── home.html
 ├── about.html
 ├── users.html
-├── assets/      
+├── assets/
 ├── LICENSE
 └── README.md
+```
 
 ## Credits
 
@@ -74,10 +75,11 @@ Font Awesome
 
 ## Author
 
-![Bryan Wambua ] (https://github.com/wambua7)
+[Bryan Wambua ] (https://github.com/wambua7)
 
 ## License
 
-This project is licensed under the MIT License. See LICENSE for details.
-[License](LICENSE)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
 
