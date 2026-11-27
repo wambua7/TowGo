@@ -16,7 +16,6 @@
 - [Features](#features)
 - [Built with](#built-with)
 - [Getting started](#getting-started)
-- [Roadmap](#roadmap)
 - [Credits](#credits)
 - [License](#license)
 
